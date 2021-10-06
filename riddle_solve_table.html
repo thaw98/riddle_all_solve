@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All</title>
+</head>
+<body>
+	<h1><center>Welcome to My Assignment</center></h1>
+	<hr/>
+	<!-- The whole table -->
+	<table width="100%">
+		<tr>
+			<th width="40%">My shop</th>
+			<th width="22%">Stock List</th>
+			<th>Customer Form</th>
+		</tr>
+		<!-- My Shop column -->
+		<tr>
+			<td><center>
+				<u>We are family, we love each other</u>
+				<p>
+					<b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. Molestias repellat minus aspernatur officiis totam dolores, asperiores dicta. Distinctio qui aut reiciendis nam hic rem, repudiandae deserunt eaque explicabo.
+				</p>
+				<p><b>
+					Lorem ipsumdolor sit amet, consectetur 
+					<br/>
+					adipisicing elit, sed do eiusmod tempor
+				</p></b>
+				<b><u>Yangon Mini Mart</u></b>
+				<br/>
+				<b>INVOICE</b>
+				<table border="1">
+					<tr>
+						<th>No.</th>
+						<th>Item</th>
+						<th>Quantity</th>
+						<th>Unit Price</th>
+						<th>Total</th>
+					</tr>
+					<tr>
+						<td><b>1.</b></td>
+						<td><b>Coffee</b></td>
+						<td><b>12</b></td>
+						<td><b>100</b></td>
+						<td><b>1,200</b></td>
+					</tr>
+					<tr>
+						<td><b>1.</b></td>
+						<td><b>Coffee</b></td>
+						<td><b>12</b></td>
+						<td><b>100</b></td>
+						<td><b>1,200</b></td>
+					</tr>
+					<tr>
+						<td><b>2.</b></td>
+						<td><b>Rice</b></td>
+						<td><b>3</b></td>
+						<td><b>3,000</b></td>
+						<td><b>9,000</b></td>
+					</tr>
+					<tr>
+						<td><b>3.</b></td>
+						<td><b>Cake</b></td>
+						<td><b>5</b></td>
+						<td><b>100</b></td>
+						<td><b>500</b></td>
+					</tr>
+					<tr>
+						<td colspan="3" rowspan="3"></td>
+						<td><b>Sub Total:</b></td>
+						<td><b>10,700</b></td>
+					</tr>
+					<tr>
+						<td><b>Tax(5%):</b></td>
+						<td><b>575</b></td>
+					</tr>
+					<tr>
+						<td><b>Grand Total(Ks):</b></td>
+						<td><b>10,125</b></td>
+					</tr>
+
+				</table>
+			</center></td>
+			<!-- Stock List -->
+			<td>
+				<table>
+					<tr>
+						<td width="30%">&nbsp;</td>
+						<td>
+							<ol type="I">
+								<li>Coffee
+									<ol type="a">
+										<li>Rich</li>
+										<li>Sunday</li>
+									</ol>
+								</li>
+							</ol>
+			
+			
+							<ol type="I" start="2">
+								<li>Stationary
+									<ol>
+										<li>Pen
+										<li>Eraser</li>
+											<ul type="circle">
+												<li>Koto</li>
+													<ul type="disc">
+														<li>Black</li>
+														<li>White</li>
+													</ul>
+												<li>Boss</li>		
+											</ul>
+										</li>
+									</ol>	
+								</li>
+							</ol>
+							
+							<ol type="1" start="3">
+								<li>
+									Book
+									<ul type="disc">
+										<li>Ubrand</li>
+										<li>Unicolor</li>
+										<li>Apolo</li>
+									</ul>
+								</li>
+							</ol>
+			
+							<ol type="I" start="3">
+								<li>Milk</li>
+								<li>Rice</li>
+							</ol>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<!-- Customer Form -->
+			<td>
+				<table>
+					<tr>
+						<td width="25%">&nbsp;</td>
+						<td>
+							<form action="riddle_solve_table.html" method="POST">
+								<fieldset>
+									<legend>Register for job</legend>
+									<br/>
+									<br/>
+									<table>
+										<tr>
+											<td><label for="name">name</label></td>
+											<td><input type="text" id="name"></td>
+										</tr>
+										<tr>
+											<td><label for="email">Email</label></td>
+											<td><input type="email" id="email"></td>
+										</tr>
+										<tr>
+											<td><label for="number">Contact number</label></td>
+											<td><input type="text" id="number"></td>
+										</tr>
+										<tr>
+											<td><label for="address">Address</label></td>
+											<td><textarea name="address" id="address" cols="20" rows="3"></textarea></td>
+										</tr>
+										<tr>
+											<td><label for="gender">Gender</label></td>
+											<td>
+												<input type="radio" id="male" value="male" name="gender">
+												<label for="male">Male</label>
+												<input type="radio" id="female" value="female" name="gender">
+												<label for="female">Female</label>
+											</td>
+										</tr>
+										<tr>
+											<td><label for="hour">Working hour</label></td>
+											<td>
+												<input type="radio" id="parttime" value="parttime" name="hour">
+												<label for="parttime">Part Time</label>
+												<input type="radio" id="fulltime" value="fulltime" name="hour">
+												<label for="fulltime">Full Time</label>
+											</td>
+										</tr>
+										<tr>
+											<td><label for="time">Working Time</label></td>
+											<td>
+												<input type="checkbox" id="daytime" value="daytime" name="time">
+												<label for="daytime">Day Time</label>
+												<input type="checkbox" id="nighttime" value="nighttime" name="time">
+												<label for="nighttime">Night Time</label>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<input type="checkbox" id="agree" value="agree" name="agree" required>
+												<label for="agree"><b>I Agree to the rules</b></label>
+											</td>
+										</tr>
+									</table>
+									<br/>
+									<button type="submit">Submit</button>
+									<button type="reset">Reset</button>
+								</fieldset>
+							</form>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<hr/>
+	<!-- Email+RTL -->
+	<p><center><a href="mailto:ppthaw1998@gmail.com">ppthaw1998@gmail.com</a></center></p>
+	<marquee behavior="scroll" direction="left" scrollamount="5"><b><i>THANKS FOR SHOPPING WITH US</i></b></marquee>
+	<br/>
+	<p><center>...See you again...</center></p>
+	<p><center><bdo dir="rtl">...See you again...</bdo></center></p>
+	<hr/>
+</body>
+<footer>
+	<!-- footer and copyright -->
+	<small><center>&copy; Copyright: Version 1.0 PYAE PHYO THAW</center></small></footer>
+</html>
